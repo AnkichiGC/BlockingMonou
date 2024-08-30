@@ -15,7 +15,7 @@ C:/Users/Ankichi/Documents/GitHub/BlockingMonou
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50235
+59607
 Successfully changed project path to: C:/Users/Ankichi/Documents/GitHub/BlockingMonou
 C:/Users/Ankichi/Documents/GitHub/BlockingMonou
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Ankichi/Documents/GitHub/BlockingMonou
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14624]  Target information:
+Player connection [4792]  Target information:
 
-Player connection [14624]  * "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 544655090 [EditorId] 544655090 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2ONFMSM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4792]  * "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 202813023 [EditorId] 202813023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2ONFMSM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14624] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4792] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-Refreshing native plugins compatible for Editor in 7.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -72,43 +72,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008104 seconds.
-- Loaded All Assemblies, in  0.326 seconds
+Registered in 0.007278 seconds.
+- Loaded All Assemblies, in  0.310 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.245 seconds
-Domain Reload Profiling: 569ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 547ms
+	BeginReloadAssembly (100ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (97ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (102ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+	FinalizeReload (239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (199ms)
+		SetupLoadedEditorAssemblies (198ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadAttributes (135ms)
 			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -118,54 +118,54 @@ Domain Reload Profiling: 569ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.601 seconds
+- Loaded All Assemblies, in  0.564 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.517 seconds
-Domain Reload Profiling: 1116ms
-	BeginReloadAssembly (152ms)
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1073ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (366ms)
-		LoadAssemblies (277ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (270ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (517ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (511ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
+		SetupLoadedEditorAssemblies (383ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (120.0 KB). Loaded Objects now: 3963.
-Memory consumption went from 134.3 MB to 134.1 MB.
-Total: 2.474200 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.005400 ms  DeleteObjects: 0.167200 ms)
+Unloading 20 unused Assets / (111.8 KB). Loaded Objects now: 3963.
+Memory consumption went from 134.2 MB to 134.1 MB.
+Total: 2.051800 ms (FindLiveObjects: 0.149100 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.772600 ms  DeleteObjects: 0.088400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,138 +182,96 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 206603.485359 seconds.
-  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx
-  artifactKey: Guid(863c2e4bd290d4344bfa0c76e862a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_Stairs_1x1_01P.fbx using Guid(863c2e4bd290d4344bfa0c76e862a0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 73756.470437 seconds.
+  path: Assets/Contemplativa/FBX/Gradas_SalaMonou/Gradas_SalaMonou.fbx
+  artifactKey: Guid(652addc89724dd94f9c9105f340d3ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Gradas_SalaMonou/Gradas_SalaMonou.fbx using Guid(652addc89724dd94f9c9105f340d3ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'd7aa0107d09c75f88b8b3ef1e09cdf71') in 0.114416 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '1b1a34749af59343e51fd6791bf02240') in 0.081394 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx
-  artifactKey: Guid(6055577e4f794be4fb975210c267ebef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models/SM_Generic_Small_Rocks_05.fbx using Guid(6055577e4f794be4fb975210c267ebef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'e80f374437ee8acfb8ae69529fc08cbf') in 0.014308 seconds
+  Time since last request: 107.393113 seconds.
+  path: Assets/Contemplativa/FBX/Gradas_SalaMonou
+  artifactKey: Guid(992bcf4fc0c35894dbbbfffba5934965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Gradas_SalaMonou using Guid(992bcf4fc0c35894dbbbfffba5934965) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'd8c8c7f926dfb3e9eb7c50e3d5af8d38') in 0.000449 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonStarter/Models/SM_Bean_Cop_01.fbx
-  artifactKey: Guid(c89a73caf26194948b5a891401eaf18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models/SM_Bean_Cop_01.fbx using Guid(c89a73caf26194948b5a891401eaf18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 4.415805 seconds.
+  path: Assets/Contemplativa/FBX/Gradas_SalaMonou/New Material.mat
+  artifactKey: Guid(4ad0b02fa2eeb854d868672498eaa02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Gradas_SalaMonou/New Material.mat using Guid(4ad0b02fa2eeb854d868672498eaa02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '8ff4f79c4ea0eee601b73ad0b5ced694') in 0.013011 seconds
+ -> (artifact id: '9f04252680c6e4bfe0e44d690053e63b') in 0.009214 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.156581 seconds.
-  path: Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx
-  artifactKey: Guid(6be28cf95702ed2459d89932f1370fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Models/SM_PolygonPrototype_Buildings_WallWindow_2x3_01P.fbx using Guid(6be28cf95702ed2459d89932f1370fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 46.869507 seconds.
+  path: Assets/Contemplativa/FBX/Gradas_SalaMonou/Gradas_SalaMonou_lambert4_Normal.png
+  artifactKey: Guid(127516dbcd634454093ca70903cbbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Gradas_SalaMonou/Gradas_SalaMonou_lambert4_Normal.png using Guid(127516dbcd634454093ca70903cbbc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'c6706913afc0e7db8a2d5b6ecae5b99c') in 0.014168 seconds
+ -> (artifact id: 'd8b24d279c852a6debd50f22a80593b8') in 0.027454 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.342398 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab
-  artifactKey: Guid(280053154239720458c4b6093bfea66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Generic_CloudRing_01.prefab using Guid(280053154239720458c4b6093bfea66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '23068838287cba3615f63121b9f5e0f6') in 0.032990 seconds
+  Time since last request: 70.411917 seconds.
+  path: Assets/Contemplativa/FBX/Escaleras_SalaMonou
+  artifactKey: Guid(e39c6dda527e46a4e908a930620d1354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Escaleras_SalaMonou using Guid(e39c6dda527e46a4e908a930620d1354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '735dee691efe51ea4448e5e7c24e0433') in 0.000475 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab
-  artifactKey: Guid(35b4129ac994d4e49a7699deb68ac65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Ramp_25_1x1_01P.prefab using Guid(35b4129ac994d4e49a7699deb68ac65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.063595 seconds.
+  path: Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou.fbx
+  artifactKey: Guid(f0e2c30b076c770468d8751943035009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou.fbx using Guid(f0e2c30b076c770468d8751943035009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '2d3da3f20da628d90ffa0545e11452a9') in 0.012252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab
-  artifactKey: Guid(af1ac26269830d347859c2c45ef72494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Floor_1x1_01P.prefab using Guid(af1ac26269830d347859c2c45ef72494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '23abc167503b91d336feb1c1f6d92788') in 0.011515 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab
-  artifactKey: Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_WallDoor_2x3_01P.prefab using Guid(dc7c84106cc461e4f8dac748879dbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '970f4b606042e98f0067cda712df502b') in 0.009986 seconds
+ -> (artifact id: '20ce8ecca4d16a93ab16084184d28275') in 0.020268 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab
-  artifactKey: Guid(a2e435ea5b0f606429670d1f3f1f1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_PolygonPrototype_Buildings_Column_2x3_01P.prefab using Guid(a2e435ea5b0f606429670d1f3f1f1504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  path: Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou_standardSurface1_Metallic.png
+  artifactKey: Guid(3395133d2f393e348a1174edb0b390b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou_standardSurface1_Metallic.png using Guid(3395133d2f393e348a1174edb0b390b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'e5640253cf41af063d973300630f7e7c') in 0.011056 seconds
+ -> (artifact id: '44cb2bbd5a96802da0a24c962748c70d') in 0.010283 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab
-  artifactKey: Guid(777f53d3993533d4184fa410d0cdfae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Generic_Tree_04.prefab using Guid(777f53d3993533d4184fa410d0cdfae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou_standardSurface1_Height.png
+  artifactKey: Guid(1aed2d8f1b8250545b23616d802ae7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou_standardSurface1_Height.png using Guid(1aed2d8f1b8250545b23616d802ae7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'd476aee605e701283a3bf2603c513e10') in 0.011039 seconds
+ -> (artifact id: '95b885745dfe08bdda7fa9510190d7d9') in 0.010245 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Generic_TreeDead_01.prefab
-  artifactKey: Guid(e30b3aeaaf8ec804198090a10eca14d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Generic_TreeDead_01.prefab using Guid(e30b3aeaaf8ec804198090a10eca14d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou_standardSurface1_Emissive.png
+  artifactKey: Guid(a29c3c26166037a40acc1a9dbf9bbf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Escaleras_SalaMonou/Escaleras_SalaMonou_standardSurface1_Emissive.png using Guid(a29c3c26166037a40acc1a9dbf9bbf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'cb64454e3929014f64f631ee68a4db7c') in 0.009441 seconds
+ -> (artifact id: 'f14a14614000c0b282a90fc40de94c3b') in 0.008380 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.141613 seconds.
-  path: Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab
-  artifactKey: Guid(f528363d2aaa5d748ab9fcd16b601236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/SM_Wep_Watergun_01.prefab using Guid(f528363d2aaa5d748ab9fcd16b601236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'dba7d8579c8db059642a24878ba2628d') in 0.012746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 62.740376 seconds.
-  path: Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab
-  artifactKey: Guid(e332982425ee2ec48b168979bb7b43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonStarter/Prefabs/Characters/SM_Bean_Cowboy_01.prefab using Guid(e332982425ee2ec48b168979bb7b43f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '31ea7166eee7cd4e25f879b81bcbf7d2') in 0.016765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server
