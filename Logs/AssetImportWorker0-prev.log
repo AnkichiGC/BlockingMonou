@@ -15,7 +15,7 @@ C:/Users/Ankichi/Documents/GitHub/BlockingMonou
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53507
+60743
 Successfully changed project path to: C:/Users/Ankichi/Documents/GitHub/BlockingMonou
 C:/Users/Ankichi/Documents/GitHub/BlockingMonou
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/Ankichi/Documents/GitHub/BlockingMonou
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18656]  Target information:
+Player connection [16612]  Target information:
 
-Player connection [18656]  * "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 2680211112 [EditorId] 2680211112 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2ONFMSM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16612]  * "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 368059396 [EditorId] 368059396 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2ONFMSM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18656] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16612] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16612] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008122 seconds.
-- Loaded All Assemblies, in  0.325 seconds
+Registered in 0.007723 seconds.
+- Loaded All Assemblies, in  0.318 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.234 seconds
-Domain Reload Profiling: 558ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 549ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (108ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (235ms)
+	FinalizeReload (233ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (194ms)
+		SetupLoadedEditorAssemblies (192ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (133ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,54 +118,54 @@ Domain Reload Profiling: 558ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.567 seconds
+- Loaded All Assemblies, in  0.549 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.498 seconds
-Domain Reload Profiling: 1063ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.515 seconds
+Domain Reload Profiling: 1062ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
+		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (364ms)
-		LoadAssemblies (269ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (259ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (163ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (127ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (498ms)
+	FinalizeReload (516ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
+		SetupLoadedEditorAssemblies (394ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (290ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (104.0 KB). Loaded Objects now: 3963.
+Unloading 20 unused Assets / (120.2 KB). Loaded Objects now: 3963.
 Memory consumption went from 134.1 MB to 134.0 MB.
-Total: 1.771200 ms (FindLiveObjects: 0.139200 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.513700 ms  DeleteObjects: 0.078600 ms)
+Total: 1.868300 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.601200 ms  DeleteObjects: 0.079000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,203 +182,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1077.368287 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/New Material.mat
-  artifactKey: Guid(1c13094f1a0cb2340ac639f6b511c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/New Material.mat using Guid(1c13094f1a0cb2340ac639f6b511c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '1b7ad54e236fe9dc6078e806b2ed83a2') in 0.102195 seconds
+  Time since last request: 87490.987998 seconds.
+  path: Assets/Contemplativa/FBX/Cartel_SalaMonou/New Prefab.prefab
+  artifactKey: Guid(848bb645e25ae3b498ff02faaae22bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Cartel_SalaMonou/New Prefab.prefab using Guid(848bb645e25ae3b498ff02faaae22bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'cb2b1d4c4960365c78ed312b9a699807') in 0.014734 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 1.951643 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01
-  artifactKey: Guid(e4ae7fc3975b53248b7b29a7cb12aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01 using Guid(e4ae7fc3975b53248b7b29a7cb12aaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '83d551b743d48aa482549c124af7d81c') in 0.000810 seconds
+  Time since last request: 44.329619 seconds.
+  path: Assets/Contemplativa/FBX/Cartel_2SalaMonou
+  artifactKey: Guid(27df895b3b792194ab3a4880d475ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Cartel_2SalaMonou using Guid(27df895b3b792194ab3a4880d475ed5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'a953ac5ba3bfa608ce5b34110f0a9372') in 0.000500 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.202326 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01/Arcade2_publi01.fbx
-  artifactKey: Guid(c2dc43c5991853f41bf4010624d18e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01/Arcade2_publi01.fbx using Guid(c2dc43c5991853f41bf4010624d18e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 0.868855 seconds.
+  path: Assets/Contemplativa/FBX/Cartel_2SalaMonou 1
+  artifactKey: Guid(d23d181bf1bfa8a43a0f8d29ea353381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Cartel_2SalaMonou 1 using Guid(d23d181bf1bfa8a43a0f8d29ea353381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '9529c53b6e6b746afd6cd983620964ec') in 0.000508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.687463 seconds.
+  path: Assets/Contemplativa/FBX/Cartel_2SalaMonou/Cartel2_SalaMonou.fbx
+  artifactKey: Guid(2f023895232a3c440bd7e6b49e8c3630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Cartel_2SalaMonou/Cartel2_SalaMonou.fbx using Guid(2f023895232a3c440bd7e6b49e8c3630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'd7bb1df6617269bbaa14e6f2393cba34') in 0.035947 seconds
+ -> (artifact id: '1869ee536022b9a663e85938befd10c2') in 0.091937 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01/Arcade2_publi01_lambert5_Emissive.png
-  artifactKey: Guid(b0c2f154513ba3946a072817d0e07dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01/Arcade2_publi01_lambert5_Emissive.png using Guid(b0c2f154513ba3946a072817d0e07dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 273.086627 seconds.
+  path: Assets/Contemplativa/FBX/Cartel_2SalaMonou/Materials
+  artifactKey: Guid(ca6718a72bb2e8840bac0884146b1fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Cartel_2SalaMonou/Materials using Guid(ca6718a72bb2e8840bac0884146b1fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: '1c53092deb842aeb5e73dd88d3a27fdf') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080319 seconds.
+  path: Assets/Contemplativa/FBX/Cartel_2SalaMonou/Materials/Cartel2_SalaMonou_text.mat
+  artifactKey: Guid(2486d83db6fb0934fabe48118bee52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Cartel_2SalaMonou/Materials/Cartel2_SalaMonou_text.mat using Guid(2486d83db6fb0934fabe48118bee52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'ece89496a4e7c5b8b4ad7ccbbef1a178') in 0.018573 seconds
+ -> (artifact id: 'deb14256e906f1384afb97fb4c00e7ad') in 0.012945 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.945032 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi03
-  artifactKey: Guid(e3931ca85193ecc4baaff198e759d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi03 using Guid(e3931ca85193ecc4baaff198e759d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'c368371787ee70a60ad1f011fd758699') in 0.000825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.312064 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02
-  artifactKey: Guid(33737f062ce99a444822c4b8ac6870b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02 using Guid(33737f062ce99a444822c4b8ac6870b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'f956c0df439fc1cffffc8668bdd09d72') in 0.000680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.187443 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02/Arcade2_publi02.fbx
-  artifactKey: Guid(f76f950711e5df34b817c4b7231083ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02/Arcade2_publi02.fbx using Guid(f76f950711e5df34b817c4b7231083ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 192.959133 seconds.
+  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01/New Material.mat
+  artifactKey: Guid(4a7e0cc2294e92e42bb44d4c936327d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi01/New Material.mat using Guid(4a7e0cc2294e92e42bb44d4c936327d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'a2fc9f8aec9d44073d073bacea5051f6') in 0.013617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 2.050826 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi03/Arcade2_publi03_lambert5_BaseColor.png
-  artifactKey: Guid(0f201a4249e0e2641a0caa00f03bd4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi03/Arcade2_publi03_lambert5_BaseColor.png using Guid(0f201a4249e0e2641a0caa00f03bd4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '3be9e5d245cc268eda9ad2a0c60cb972') in 0.008979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.435366 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Materials
-  artifactKey: Guid(32e349107d27f544cb5b9be8c61db021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Materials using Guid(32e349107d27f544cb5b9be8c61db021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '9cd8a8471a03a19b3a93a760e98a750c') in 0.000483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.095794 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Materials/Arcade1_Monou_lambert5_BaseColor.mat
-  artifactKey: Guid(bb13f797349abd443bbf3279a18bbe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Materials/Arcade1_Monou_lambert5_BaseColor.mat using Guid(bb13f797349abd443bbf3279a18bbe39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '53fb8c14896345194f9b25b8a67bd481') in 0.009746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.210530 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi01
-  artifactKey: Guid(fed606ed4b66a4348a162d5b915bb209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi01 using Guid(fed606ed4b66a4348a162d5b915bb209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'ca60a038baa6a9de356882b03cc3392c') in 0.000719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.980894 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi02
-  artifactKey: Guid(36ae9897c9df2da4695af77fede56dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi02 using Guid(36ae9897c9df2da4695af77fede56dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'c06c6a54eaa1b4fe4b76cf299e186a3b') in 0.000622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 56.928750 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi01/Arcade1_publi01.fbx copy
-  artifactKey: Guid(abd5c182720b0ee40a1f9a6a39fa34ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi01/Arcade1_publi01.fbx copy using Guid(abd5c182720b0ee40a1f9a6a39fa34ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '11c712c6ee53a9f86404e3b0f800730f') in 0.000806 seconds
+ -> (artifact id: '4a6d3c09eab4a80bc19675c3084682d8') in 0.011404 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 9.351685 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi03/Arcade1_publi03_lambert5_BaseColor.png
-  artifactKey: Guid(1b74631e98b759d439880963243872a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi03/Arcade1_publi03_lambert5_BaseColor.png using Guid(1b74631e98b759d439880963243872a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+  Time since last request: 110.759217 seconds.
+  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02/New Material.mat
+  artifactKey: Guid(be80c12d84189b34aa96792aa3e07de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02/New Material.mat using Guid(be80c12d84189b34aa96792aa3e07de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'f987b8a6617dbba81c4a8fe0f4c1c1f7') in 0.010455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.797866 seconds.
-  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi03/Arcade1_publi03.fbx copy
-  artifactKey: Guid(b3dc36df3d3b7c7448b6e5d8c6d1eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade1_publi03/Arcade1_publi03.fbx copy using Guid(b3dc36df3d3b7c7448b6e5d8c6d1eb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'b6aec93539205b4a79f58336750abc85') in 0.000805 seconds
+ -> (artifact id: '18db290c9cf3abc6870b823203be1e43') in 0.010369 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 102.257815 seconds.
-  path: Assets/Contemplativa/FBX/Cartel_SalaMonou
-  artifactKey: Guid(d0e36e137d15e804cb6d2ecb18755064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Cartel_SalaMonou using Guid(d0e36e137d15e804cb6d2ecb18755064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'a125bd4dfb79ddf6fd486d2de4aa7854') in 0.000402 seconds
+  Time since last request: 199.750388 seconds.
+  path: Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02/New Material.mat
+  artifactKey: Guid(be80c12d84189b34aa96792aa3e07de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Contemplativa/FBX/Arcade1_SalaMonou/Arcade2_publi02/New Material.mat using Guid(be80c12d84189b34aa96792aa3e07de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
+ -> (artifact id: 'b6af8c316e2c456dd4311dbc5f66e5d9') in 0.013579 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.097863 seconds.
-  path: Assets/Contemplativa/FBX/Cartel_SalaMonou/Cartel1_SalaMonou_text.png
-  artifactKey: Guid(9d94ed9ffba72e34babd0afd3d1b6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Cartel_SalaMonou/Cartel1_SalaMonou_text.png using Guid(9d94ed9ffba72e34babd0afd3d1b6a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'c6e6a710cb47fb3a1a351b4664c6412f') in 0.011494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 837.214716 seconds.
-  path: Assets/Contemplativa/FBX/Nivel2_SalaMonou/Nivel2_SalaMonou.fbx
-  artifactKey: Guid(9f3dfee3e79ab474e8136da9b744e17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Nivel2_SalaMonou/Nivel2_SalaMonou.fbx using Guid(9f3dfee3e79ab474e8136da9b744e17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '2eedf59933b312e1549306010407bdb3') in 0.019720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Contemplativa/FBX/Nivel2_SalaMonou/Nivel2_SalaMonou_standardSurface1_Emissive.png
-  artifactKey: Guid(74fe87961e46484408b4dba08fcfb0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Nivel2_SalaMonou/Nivel2_SalaMonou_standardSurface1_Emissive.png using Guid(74fe87961e46484408b4dba08fcfb0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: 'ade9551716f4e76b635afd06ca3fae1c') in 0.010615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Contemplativa/FBX/Nivel2_SalaMonou/Nivel2_SalaMonou_standardSurface1_Metallic.png
-  artifactKey: Guid(2308ac0e3e5baef4bb271e705aa0fd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Contemplativa/FBX/Nivel2_SalaMonou/Nivel2_SalaMonou_standardSurface1_Metallic.png using Guid(2308ac0e3e5baef4bb271e705aa0fd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 28 workers.
- -> (artifact id: '350ad23dad680d1ec5af363ecd52344e') in 0.010416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 3
