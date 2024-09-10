@@ -15,7 +15,7 @@ C:/Users/renem/OneDrive/Documentos/GitHub/BlockingMonou
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-58155
+58784
 Successfully changed project path to: C:/Users/renem/OneDrive/Documentos/GitHub/BlockingMonou
 C:/Users/renem/OneDrive/Documentos/GitHub/BlockingMonou
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/renem/OneDrive/Documentos/GitHub/BlockingMonou
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24108]  Target information:
+Player connection [3624]  Target information:
 
-Player connection [24108]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2434363076 [EditorId] 2434363076 [Version] 1048832 [Id] WindowsEditor(7,FlanNapolitano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3624]  * "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 2031466808 [EditorId] 2031466808 [Version] 1048832 [Id] WindowsEditor(7,FlanNapolitano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24108] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24108] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3624] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3624] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 63.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.144686 seconds.
-- Loaded All Assemblies, in  6.808 seconds
+Registered in 0.084456 seconds.
+- Loaded All Assemblies, in  1.826 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.557 seconds
-Domain Reload Profiling: 8212ms
-	BeginReloadAssembly (4074ms)
+- Finished resetting the current domain, in  1.193 seconds
+Domain Reload Profiling: 2999ms
+	BeginReloadAssembly (678ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (229ms)
-	RebuildNativeTypeToScriptingClass (78ms)
-	initialDomainReloadingComplete (859ms)
-	LoadAllAssembliesAndSetupDomain (1412ms)
-		LoadAssemblies (4064ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (315ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (657ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1383ms)
-			TypeCache.Refresh (1367ms)
-				TypeCache.ScanAssembly (1189ms)
+		AnalyzeDomain (641ms)
+			TypeCache.Refresh (639ms)
+				TypeCache.ScanAssembly (597ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1559ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1194ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1335ms)
+		SetupLoadedEditorAssemblies (928ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
-			SetLoadedEditorAssemblies (31ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (43ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (716ms)
-			ProcessInitializeOnLoadMethodAttributes (532ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,54 +118,54 @@ Domain Reload Profiling: 8212ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 11.877 seconds
+- Loaded All Assemblies, in  9.568 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.744 seconds
-Domain Reload Profiling: 14527ms
-	BeginReloadAssembly (805ms)
+- Finished resetting the current domain, in  5.195 seconds
+Domain Reload Profiling: 14743ms
+	BeginReloadAssembly (764ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
+		DisableScriptedObjects (28ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (290ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (726ms)
-	LoadAllAssembliesAndSetupDomain (9920ms)
-		LoadAssemblies (9449ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (298ms)
+	LoadAllAssembliesAndSetupDomain (8332ms)
+		LoadAssemblies (7767ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1023ms)
-			TypeCache.Refresh (927ms)
-				TypeCache.ScanAssembly (865ms)
-			ScanForSourceGeneratedMonoScriptInfo (71ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2745ms)
+		AnalyzeDomain (1074ms)
+			TypeCache.Refresh (981ms)
+				TypeCache.ScanAssembly (910ms)
+			ScanForSourceGeneratedMonoScriptInfo (68ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (5197ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2052ms)
+		SetupLoadedEditorAssemblies (4561ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (364ms)
-			ProcessInitializeOnLoadAttributes (1497ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (55ms)
+			BeforeProcessingInitializeOnLoad (559ms)
+			ProcessInitializeOnLoadAttributes (3724ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (66ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.93 seconds
-Refreshing native plugins compatible for Editor in 470.22 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (26ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.44 seconds
+Refreshing native plugins compatible for Editor in 24.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3502 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (112.2 KB). Loaded Objects now: 3979.
-Memory consumption went from 214.3 MB to 214.2 MB.
-Total: 63.419600 ms (FindLiveObjects: 2.339500 ms CreateObjectMapping: 6.204600 ms MarkObjects: 45.962600 ms  DeleteObjects: 1.816000 ms)
+Unloading 20 unused Assets / (104.0 KB). Loaded Objects now: 3995.
+Memory consumption went from 223.9 MB to 223.8 MB.
+Total: 210.936000 ms (FindLiveObjects: 1.610300 ms CreateObjectMapping: 1.027500 ms MarkObjects: 192.135000 ms  DeleteObjects: 16.156200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,35 +182,234 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14128.240258 seconds.
-  path: Assets/PolygonNatureBiomes/PNB_Core/Prefabs/FX_Snow_01.prefab
-  artifactKey: Guid(73bd0be678270ca4e85be3edf52d3185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNatureBiomes/PNB_Core/Prefabs/FX_Snow_01.prefab using Guid(73bd0be678270ca4e85be3edf52d3185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 14792.031908 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tree_Banana_01.prefab
+  artifactKey: Guid(b5479922251fdcb408bac60b939ca688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tree_Banana_01.prefab using Guid(b5479922251fdcb408bac60b939ca688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '876cc8545337fb32088569928035215c') in 3.196444 seconds
+ -> (artifact id: 'b8e091ecb719e171b7d9e1c5af1989b7') in 4.446943 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.164810 seconds.
-  path: Assets/PolygonNatureBiomes/PNB_Core/Prefabs/SM_Env_Fog_Ring_01.prefab
-  artifactKey: Guid(4ddb5313f19796442b505f8ba4d4378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNatureBiomes/PNB_Core/Prefabs/SM_Env_Fog_Ring_01.prefab using Guid(4ddb5313f19796442b505f8ba4d4378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flower_Pitcher_02.prefab
+  artifactKey: Guid(9ca312419e6055b4e9aba92b41ea7fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flower_Pitcher_02.prefab using Guid(9ca312419e6055b4e9aba92b41ea7fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'e2b1bdb048b6889c128e60350b9ccf96') in 0.465332 seconds
+ -> (artifact id: '3cfcdb8406fba659815fd2bd3156a529') in 0.166166 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 26
 ========================================================================
 Received Import Request.
-  Time since last request: 0.019668 seconds.
-  path: Assets/PolygonNatureBiomes/PNB_Core/Models/SM_Env_Skydome_01.fbx
-  artifactKey: Guid(e05867e933dc6ca45a89c6daf5512752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonNatureBiomes/PNB_Core/Models/SM_Env_Skydome_01.fbx using Guid(e05867e933dc6ca45a89c6daf5512752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 0.000080 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Ramp_03.prefab
+  artifactKey: Guid(8a6b547fe31bdcc43b0702cc8792bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Ramp_03.prefab using Guid(8a6b547fe31bdcc43b0702cc8792bbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'c7c8b96c1a6b6bd3fc4a98c689cd8bae') in 0.647515 seconds
+ -> (artifact id: '5aa144f22865e7da1b3201684a209be8') in 1.056737 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flowers_Flat_01.prefab
+  artifactKey: Guid(5804fcd07e4641048bf0a25f8fa1ed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flowers_Flat_01.prefab using Guid(5804fcd07e4641048bf0a25f8fa1ed79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecc5f1ec45f581daeb5698e427650cd9') in 1.716206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tree_Banana_03.prefab
+  artifactKey: Guid(92015a42d8ca240428be697367d5268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tree_Banana_03.prefab using Guid(92015a42d8ca240428be697367d5268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f9ff35e3d1a2a737b10d09077b3037d1') in 0.412920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Fern_01.prefab
+  artifactKey: Guid(013459274a9887f4f9eb408b260a8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Fern_01.prefab using Guid(013459274a9887f4f9eb408b260a8ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecd025fc58effa4ac2e03d3b3c4397ca') in 0.434710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Grass_Short_Clump_03.prefab
+  artifactKey: Guid(8578e5a32dd395c40940cbc0879f13ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Grass_Short_Clump_03.prefab using Guid(8578e5a32dd395c40940cbc0879f13ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd765b8c3de035139dfb6144be4edd4d1') in 0.148575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Bush_Palm_01.prefab
+  artifactKey: Guid(ba9ccab05041f1b49841d2d6213640e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Bush_Palm_01.prefab using Guid(ba9ccab05041f1b49841d2d6213640e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b9365c1ab87a45a2634c1b5810e2202') in 0.664211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flower_03.prefab
+  artifactKey: Guid(bc2f59459201db34cbdc6e24a38ff560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flower_03.prefab using Guid(bc2f59459201db34cbdc6e24a38ff560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '204d5cae68aa43b9020b671b55a32904') in 0.141466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flowers_Flat_02.prefab
+  artifactKey: Guid(f92bc7379feff35419635c140758dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Flowers_Flat_02.prefab using Guid(f92bc7379feff35419635c140758dfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a17604b55a93a8b72ade99cdffa01e3') in 0.030214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_04.prefab
+  artifactKey: Guid(7045b6930678b364aa335e2fc50e6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_04.prefab using Guid(7045b6930678b364aa335e2fc50e6c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c760ea01ff0fd35d63b67735ff527368') in 0.592815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Grass_Tall_Clump_02.prefab
+  artifactKey: Guid(d653c65d995437f4a807a24c7a9e29e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Grass_Tall_Clump_02.prefab using Guid(d653c65d995437f4a807a24c7a9e29e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59af4a4a20ad6564535ecf29d4517178') in 0.617734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000967 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Pile_03.prefab
+  artifactKey: Guid(5b448aa47a6dfc042be4e202cf9196fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Pile_03.prefab using Guid(5b448aa47a6dfc042be4e202cf9196fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a877d5f056d547632e35b22688150dbb') in 0.186987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Grass_Tall_Clump_01.prefab
+  artifactKey: Guid(302efc5c8fbbf6a4983c8d14f52b15f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Grass_Tall_Clump_01.prefab using Guid(302efc5c8fbbf6a4983c8d14f52b15f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '709f80f916bbeda0a259e7d2c7a90c40') in 0.123795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_01.prefab
+  artifactKey: Guid(a8b45bb4d555207469b7356c92071ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_01.prefab using Guid(a8b45bb4d555207469b7356c92071ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0a34d00c947bfa155699685e49906c7') in 0.121599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_05.prefab
+  artifactKey: Guid(566ec7610322b4e4398c68befa8b1125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_05.prefab using Guid(566ec7610322b4e4398c68befa8b1125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f0d9c95638a0c16a4da130a668f0920') in 0.080215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tubes_01.prefab
+  artifactKey: Guid(703f471ca1e66a54785303bd75b5a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tubes_01.prefab using Guid(703f471ca1e66a54785303bd75b5a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bc4c58bbc59a0c7c4954cfbd6bd3fa6d') in 0.090218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Cliff_02.prefab
+  artifactKey: Guid(593d67be35b76df49a48a4ebc09d0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Cliff_02.prefab using Guid(593d67be35b76df49a48a4ebc09d0eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad1c32186cbab09bd6f282616dd611fb') in 0.187606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Ground_02.prefab
+  artifactKey: Guid(7b54add559c43484eb572e0d43a20362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Rock_Ground_02.prefab using Guid(7b54add559c43484eb572e0d43a20362) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd38af84660b18ad585e5560d898d4a4') in 0.105300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.002436 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tree_Palm_04.prefab
+  artifactKey: Guid(e3e443748686859419fbb6a34a53ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Prefabs/SM_Env_Tree_Palm_04.prefab using Guid(e3e443748686859419fbb6a34a53ee16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f89e9b375327c7e3abb511aeb45f5433') in 0.531344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 65.254580 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Textures/Bioluminescence/Grass_01_Glow_01.png
+  artifactKey: Guid(6c46c01e7ca1df9458e3e379133b7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Textures/Bioluminescence/Grass_01_Glow_01.png using Guid(6c46c01e7ca1df9458e3e379133b7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd98bf0996336b0ea18d7a6ba043215df') in 0.381302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.909491 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Materials/Bioluminescent/BASEMat_01_Biolumin.mat
+  artifactKey: Guid(2c8df473bb1c4ac46a7c385c7b28d901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Materials/Bioluminescent/BASEMat_01_Biolumin.mat using Guid(2c8df473bb1c4ac46a7c385c7b28d901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac9efc5c831030294bb1b076b92ae600') in 0.163617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Materials/Bioluminescent/Biolumin_Fan_01.mat
+  artifactKey: Guid(92061b05edb265f4daa87d0c5ebc6f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/Materials/Bioluminescent/Biolumin_Fan_01.mat using Guid(92061b05edb265f4daa87d0c5ebc6f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab8266007aa78b222fda99f0c8668524') in 0.458508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
